@@ -21,7 +21,7 @@ def finger_face_job():
     global Display_result
     global picture_code
     picture_code = 0
-    fc = faceid_client(500,500,'http://120.125.84.253:8800','/Recognize')
+    fc = faceid_client(500,500,'yourip','/Recognize')
     fg = finger()
     picture_code = 1
     Display_result = ' '

@@ -20,8 +20,8 @@ class finger:
 
     def finger_cmp(self):
         #finger database
-        finger_database = [b'\x01',b'\x03',b'\x04']
-        finger_name = ['name1','name2','name3']
+        finger_database = [b'FPM1',b'FPM2',b'FPM3']
+        finger_name = ['face1_label','face1_labe2','face1_labe3']
         fingerprint = self.Get_finger_number()
         result = []
         #Check finger
